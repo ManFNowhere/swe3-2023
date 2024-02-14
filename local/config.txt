@@ -1,4 +1,4 @@
-user=tmahdi
-webapp=docker-tmahdi-java
-manager=docker-tmahdi-manager
+user=swe3-2023-12
+webapp=docker-swe3-2023-12-java
+manager=docker-swe3-2023-12-manager
 baseurl=https://informatik.hs-bremerhaven.de

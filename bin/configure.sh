@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-YOURUSER="tmahdi"
-DEPLOYPASSWORD="BlFbFqmXVM73CH5Wrp8t"
+YOURUSER="swe3-2023-12"
+DEPLOYPASSWORD="xvN6mv2IJqds6iSzB87B"
 
 mkdir -p local
 echo "user=$YOURUSER

@@ -5,12 +5,12 @@
 		initialSize="3"
 		maxActive="10"
 		maxWaitMillis="5000"
-		username="tmahdi" 
-		password="BlFbFqmXVM73CH5Wrp8t" 
+		username="swe3-2023-12" 
+		password="xvN6mv2IJqds6iSzB87B" 
 		testOnBorrow="true"
 		timeBetweenEvictionRunsMillis="30000"
 		removeAbandoned="true"
 		driverClassName="org.mariadb.jdbc.Driver"
-		url="jdbc:mariadb://mysql-server:3306/tmahdi_db" /> 
+		url="jdbc:mariadb://mysql-server:3306/swe3-2023-12_db" /> 
 </Context>
 
