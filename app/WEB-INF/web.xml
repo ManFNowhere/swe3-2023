@@ -1,0 +1,40 @@
+<web-app >
+
+  <context-param>
+    <param-name>myinit</param-name>
+    <param-value>myinitvalue</param-value>
+  </context-param>
+
+  <servlet>
+    <servlet-name>terminbuchen</servlet-name>
+    <servlet-class>hbv.TerminBuchenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>terminbuchen</servlet-name>
+      <url-pattern>/terminbuchen</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>terminverwalten</servlet-name>
+    <servlet-class>hbv.TerminVerwaltenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>terminverwalten</servlet-name>
+      <url-pattern>/terminverwalten</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>booking</servlet-name>
+    <servlet-class>hbv.BookingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>booking</servlet-name>
+      <url-pattern>/booking</url-pattern>
+  </servlet-mapping>
+
+
+ <!-- <session-config>
+        <session-timeout>30</session-timeout>
+  </session-config>-->
+
+</web-app>  

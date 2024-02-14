@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/team12.css">
+  </head>
+
+  <body>
+    <div class="homepage">
+      <div class="homapage left">
+        <h1>Willkommen zur Terminregistrierung gegen COVID-19!</h1>
+        <br>
+        <p>Sie können sich im Folgenden einen Terminbuchen und Terminverwalten.</p>
+        <div class="centerContent">
+          <!-- <a class="buttonStyleBig" href="pages/vereinbarung.html">Terminbuchen</a>
+          <a class="buttonStyleBig" href="pages/verwaltung.html">Terminverwalten</a> -->
+
+          <form action="/docker-tmahdi-java/terminbuchen" method="get">
+            <button class="buttonStyleBig" type="submit">Terminbuchen</button>
+          </form>
+          <form action="/docker-tmahdi-java/terminverwalten" method="get">
+            <button class="buttonStyleBig" type="submit">Terminverwalten</button>
+          </form>
+        
+        </div>
+      </div>
+
+      <div class="homapage right">
+        <div class="imageFrame">
+          <img src="images/immunity.png" alt="immune-system">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hs-logo">
+      <a href="https://www.hs-bremerhaven.de"><img src="images/hs-logo.png" alt="hochschule bremerhaven"></a>
+    </div>   
+  </body>
+</html> 

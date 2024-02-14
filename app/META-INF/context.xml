@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/mariadb" 
+		type="javax.sql.DataSource"
+		initialSize="3"
+		maxActive="10"
+		maxWaitMillis="5000"
+		username="tmahdi" 
+		password="BlFbFqmXVM73CH5Wrp8t" 
+		testOnBorrow="true"
+		timeBetweenEvictionRunsMillis="30000"
+		removeAbandoned="true"
+		driverClassName="org.mariadb.jdbc.Driver"
+		url="jdbc:mariadb://mysql-server:3306/tmahdi_db" /> 
+</Context>
+

@@ -1,0 +1,403 @@
+.all,body {
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #F9F9F9;
+  font-family: Helvetica;
+  overflow: none;
+}
+
+h1, h2, h3, p{
+  color: #F9F9F9;
+}
+
+table, tr, th, td {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+td {
+  height: 30px;
+  font-size: 1vw;
+}
+
+th {
+  height: 25px;
+  background-color: #3D5A80;
+  color: white;
+  font-size: 1vw;
+}
+
+label {
+  font-size: 15px;
+  font-weight: bold;
+  width: 250px;
+  display: inline-block;
+  text-align: right;
+}
+
+img {
+  width:200px;
+  height:80px;
+}
+
+a{
+  text-decoration: none;
+  color: #F9F9F9;
+}
+a:hover{text-decoration: none;}
+
+select {
+  background-color: #F9F9F9;
+  color: #41444B;
+  border-radius: 3px;
+  border: none;
+  margin-left: 20px;
+}
+
+/* hs-logo */
+.hs-logo{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* navbar */
+.navbar{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.navbarItem{
+  margin-left: 5%;
+}
+
+
+
+/*homepage */
+.homepage {
+  display: flex;
+}
+
+.left{
+  background-color: #41444B;
+  width: 50%;
+  padding: 10% 2%;
+}
+
+.right{
+  background-color: #2A528A;
+  width: 50%;
+  padding: 10% 2%;
+  text-align: center;
+}
+
+.table-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.table-content h1{color: #41444B;}
+
+.imageFrame{
+  background-color: #F9F9F9;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 10px 10px #252850;
+  width: 50%;
+  margin: auto;
+}
+
+.imageFrame img{
+  height: 30%;
+  width: -webkit-fill-available;
+}
+
+/* register and login*/
+.registerPage, .loginPage{
+  background-color: #41444B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+}
+
+.registerContent, .loginContent {
+  margin: 10% 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  background-color: #252850;
+  padding: 5% 2%;
+  border-radius: 10px;
+  border: solid 10px #F9F9F9;
+}
+
+/* logout */
+.logout{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+/* user page */
+.userMenu{
+  display: flex;
+  flex-direction: row;
+  background-color: #41444B;
+  padding: 10% 10%;
+  justify-content: center;
+}
+.userMenuButton{
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.terminauswahlContent{
+  background-color: #41444B;
+  color: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+}
+
+
+/* Site Content */
+.divSiteContent{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+
+
+
+
+/*Fpr inputfield forms*/
+.divInput {
+  margin-bottom: 1%;
+}
+
+/*For containers with tables, especially those showing booking info*/
+.divTableBook {
+  text-align: -webkit-center;
+}
+
+
+
+
+
+/*For the registration and login labels*/
+.labelReg, .labelVerwaltung {
+  font-size: 15px;
+  font-weight: bold;
+  width: 140px;
+  display: inline-block;
+  text-align: right;
+  color: #F9F9F9;
+}
+
+/*For the confirm appointment labels*/
+.labelConfirmApp {
+  font-size: 15px;
+  font-weight: bold;
+  width: 350px;
+  display: inline-block;
+  text-align: right;
+}
+
+
+
+
+
+/*For buttons on all other pages*/
+button {
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  background-color: #3D5A80;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #252850;
+}
+
+.buttonStyleBig {
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  color: #41444B;
+  border-radius: 3px;
+  background-color: #E8ECF1;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin: 0 1% 1%;
+}
+
+.buttonStyleBig:hover {
+  background-color: #252850;
+  color: #F9F9F9;
+}
+
+.buttonCenter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+/*For all inputfields with labels*/
+.centerContent {
+  text-align: center;
+}
+
+/*To center forms*/
+.centerForm {
+    margin: auto;
+    text-align: center;
+}
+
+/*Container style for form containers*/
+.divInputForm {
+  margin-bottom: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Calendar */
+
+/*To center the calendar container*/
+.divCenter {
+  text-align: center;
+  margin: auto;
+  width: 35%;
+}
+
+/*Style for the calendar head*/
+.calendarTableHead { 
+  background: #3D5A80;
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-bottom-style: none;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.calendarTableHead td{
+  font-size: 15px;
+}
+
+/*Style for the calendar week bar*/
+.calendarTableWeek {
+  background: #3D5A80;
+  margin: auto;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+  height: 3%;
+}
+
+.calendarTableWeek th {
+  font-size: 15px;
+}
+
+
+/*Style for the calendar body with all the dates*/
+.calendarTableBody {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 15px;
+  width: 100%;
+}
+
+/*Style for the previous and next buttons*/
+.calendarNavButton {
+  color: white; 
+  background: #3D5A80; 
+  font-size:25px;
+}
+
+/*Style for the "active" buttons in the calendar, where you can still book appointments*/
+.calendarAppButton {
+  border: none; 
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  width:100%;
+  height:100%;
+  background-color: #F9F9F9;
+}
+
+.calendarAppButton:hover {
+  background-color: #252850;
+  color: white;
+}
+
+/*To remove unnecessary borders*/
+.tr-calendarHead {
+  border:none;
+}
+
+/*For calendar fields, with no free appointments or dates, that predate the current one*/
+.td-calendarNoApp {
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(233 222 222 / 67%);
+  text-align: center;
+}
+
+/*Style for the calendar week line headers*/
+.th-calendarWeek {
+  background: #3D5A80;
+  border-bottom-style: none;
+}
+
